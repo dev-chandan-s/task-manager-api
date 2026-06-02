@@ -94,4 +94,4 @@ DELETE /api/tasks/:id
 
 ## Author
 
-Ravi Sidhu
+Chandan Singh
