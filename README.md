@@ -1,18 +1,40 @@
 # Task Manager API
 
-A backend REST API that allows users to register, log in, and manage their personal tasks securely using JWT authentication.
+A RESTful Task Manager API built using Node.js, Express.js, MongoDB, and JWT Authentication.
+
+## Live Demo
+
+**API URL:** https://YOUR-RENDER-URL.onrender.com
+
+Example:
+
+GET /
+
+Returns:
+
+```json
+"Task Manager API running"
+```
 
 ## Features
 
-* User Registration (Signup)
-* User Login
-* Password Hashing using bcryptjs
-* JWT Authentication
-* Protected Routes
-* Create Tasks
-* View Personal Tasks
-* Update Tasks
-* Delete Tasks
+✅ User Registration (Signup)
+
+✅ User Login
+
+✅ Password Hashing using bcryptjs
+
+✅ JWT Authentication
+
+✅ Protected Routes
+
+✅ Create Tasks
+
+✅ View Personal Tasks
+
+✅ Update Tasks
+
+✅ Delete Tasks
 
 ## Tech Stack
 
@@ -23,6 +45,20 @@ A backend REST API that allows users to register, log in, and manage their perso
 * JWT (jsonwebtoken)
 * bcryptjs
 * dotenv
+* Render
+
+## What I Learned
+
+* Express.js Routing
+* Middleware
+* MongoDB & Mongoose
+* JWT Authentication
+* Password Hashing with bcryptjs
+* REST API Development
+* CRUD Operations
+* Environment Variables (.env)
+* Git & GitHub
+* Cloud Deployment with Render
 
 ## Project Structure
 
@@ -71,7 +107,7 @@ JWT_SECRET=YOUR_SECRET_KEY
 4. Start the server
 
 ```bash
-node server.js
+npm start
 ```
 
 ## API Endpoints
@@ -91,20 +127,6 @@ POST /api/tasks
 PATCH /api/tasks/:id
 
 DELETE /api/tasks/:id
-
-## What I Learned
-
-* Express.js Routing
-* Middleware
-* MongoDB & Mongoose
-* JWT Authentication
-* Password Hashing with bcryptjs
-* REST API Development
-* CRUD Operations
-* Environment Variables (.env)
-* Project Structure using Controllers, Routes, Models, and Middleware
-* Git & GitHub Basics
-
 
 ## Author
 
