@@ -1,6 +1,6 @@
 # Task Manager API
 
-A RESTful Task Manager API built using Node.js, Express.js, MongoDB, and JWT Authentication.
+A backend REST API that allows users to register, log in, and manage their personal tasks securely using JWT authentication.
 
 ## Features
 
@@ -92,6 +92,22 @@ PATCH /api/tasks/:id
 
 DELETE /api/tasks/:id
 
+## What I Learned
+
+* Express.js Routing
+* Middleware
+* MongoDB & Mongoose
+* JWT Authentication
+* Password Hashing with bcryptjs
+* REST API Development
+* CRUD Operations
+* Environment Variables (.env)
+* Project Structure using Controllers, Routes, Models, and Middleware
+* Git & GitHub Basics
+
+
 ## Author
 
 Chandan Singh
+
+GitHub: dev-chandan-s
